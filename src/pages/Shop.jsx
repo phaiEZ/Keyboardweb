@@ -58,7 +58,7 @@ const Shop = () => {
         <div className="flex justify-around py-16">
           <button class="bg-white ring-2 ring-black rounded-3xl w-52 h-52">
             <div className="flex justify-center">
-              <img src={keyboardlogo} alt="" className="w-32" />
+              <img src="https://media.discordapp.net/attachments/931080274106810410/968470127513321492/unknown.png?width=901&height=676" alt="" className="w-32" />
             </div>
             <div className="text-black text-xl font-bold py-2">keyboard</div>
             <div className="text-black font-bold">100 B</div>

@@ -3,7 +3,7 @@ import keyboardlogo from "../img/keyboardlogo.png";
 
 const Payment = () => {
     return (
-        <div class="container mx-auto mt-1 pt-10">
+        <div class="container mx-auto w-4/6 mt-1 pt-10">
             <div class="flex justify-center items-between my-10">
                 <div class="w-3/4 px-6">
                     <div class=" rounded-2xl bg-gray-100 w-full px-9 py-6 ml-3 mb-3">
