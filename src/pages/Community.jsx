@@ -3,40 +3,38 @@ const Community = () => {
   return (
     <div class="container mx-auto mt-1 pt-10">
       <div class="flex justify-center items-between my-5 px-6">
-        <a href="/Profile">
-          <button class=" rounded-full flex justify-center bg-profile1-pic bg-cover ring-2 ring-black items-center pl-20 pr-24 pt-20 pb-24 mb-3 mr-20 hover:brightness-50"></button>
-        </a>
+          <a href="/Profile" class=" rounded-full flex justify-center bg-profile1-pic bg-cover ring-2 ring-black items-center pl-20 pr-24 pt-20 pb-24 mb-3 mr-20 hover:brightness-50"/>
         <div class="relative flex justify-around rounded-3xl bg-bg-profile w-6/12 px-3 pb-3 pt-10 mb-3">
           <h1 class="absolute top-1.5 left-7 text-white text-xl font-bold">
             OppKung
           </h1>
-          <div class="rounded-2xl bg-white w-1/2 bg-keyboard5-pic bg-cover"></div>
-          <div class="rounded-2xl bg-white w-1/2 bg-keyboard5-pic bg-cover ml-3"></div>
-          <div class="rounded-2xl bg-white w-1/2 bg-keyboard5-pic bg-cover ml-3"></div>
+          <a href="/Product" class="rounded-2xl bg-white w-1/2 bg-keyboard5-pic bg-cover"/>
+          <a href="/Product" class="rounded-2xl bg-white w-1/2 bg-keyboard5-pic ml-3 bg-cover " />
+          <a href="/Product" class="rounded-2xl bg-white w-1/2 bg-keyboard5-pic ml-3 bg-cover"/>
         </div>
       </div>
       <div class="border-b ml-40 mr-40"></div>
       <div class="flex justify-center items-between my-5 px-6">
-        <div class=" rounded-full flex justify-center bg-profile2-pic bg-cover ring-2 ring-black items-center pl-20 pr-24 pt-20 pb-24 mb-3 mr-20 hover:brightness-50"></div>
+      <a href="/Profile" class=" rounded-full flex justify-center bg-profile2-pic bg-cover ring-2 ring-black items-center pl-20 pr-24 pt-20 pb-24 mb-3 mr-20 hover:brightness-50"/>
         <div class="relative flex justify-around rounded-3xl bg-bg-profile w-6/12 px-3 pb-3 pt-10 mb-3">
           <h1 class="absolute top-1.5 left-7 text-white text-xl font-bold">
             Toto
           </h1>
-          <div class="rounded-xl bg-white bg-keyboard5-pic bg-cover w-1/2"></div>
-          <div class="rounded-xl bg-white bg-keyboard5-pic bg-cover w-1/2 ml-3"></div>
-          <div class="rounded-xl bg-white bg-keyboard5-pic bg-cover w-1/2 ml-3"></div>
+          <a href="/Product" class="rounded-2xl bg-white w-1/2 bg-keyboard5-pic bg-cover " />
+          <a href="/Product" class="rounded-2xl bg-white w-1/2 bg-keyboard5-pic ml-3 bg-cover " />
+          <a href="/Product" class="rounded-2xl bg-white w-1/2 bg-keyboard5-pic ml-3 bg-cover " />
         </div>
       </div>
       <div class="border-b ml-40 mr-40"></div>
       <div class="flex justify-center items-between my-5 px-6">
-        <div class=" rounded-full flex justify-center bg-profile3-pic bg-cover ring-2 ring-black items-center pl-20 pr-24 pt-20 pb-24 mb-3 mr-20 hover:brightness-50"></div>
+      <a href="/Profile" class=" rounded-full flex justify-center bg-profile3-pic bg-cover ring-2 ring-black items-center pl-20 pr-24 pt-20 pb-24 mb-3 mr-20 hover:brightness-50"/>
         <div class="relative flex justify-around rounded-3xl bg-bg-profile w-6/12 px-3 pb-3 pt-10 mb-3">
           <h1 class="absolute top-1.5 left-7 text-white text-xl font-bold">
             Aomzupp
           </h1>
-          <div class="rounded-xl bg-white bg-keyboard5-pic bg-cover w-1/2"></div>
-          <div class="rounded-xl bg-white bg-keyboard5-pic bg-cover w-1/2 ml-3"></div>
-          <div class="rounded-xl bg-white bg-keyboard5-pic bg-cover w-1/2 ml-3"></div>
+          <a href="/Product" class="rounded-2xl bg-white w-1/2 bg-keyboard5-pic bg-cover " />
+          <a href="/Product" class="rounded-2xl bg-white w-1/2 bg-keyboard5-pic ml-3 bg-cover " />
+          <a href="/Product" class="rounded-2xl bg-white w-1/2 bg-keyboard5-pic ml-3 bg-cover " />
         </div>
       </div>
       <div class="border-b ml-40 mr-40"></div>

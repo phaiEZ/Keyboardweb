@@ -1,5 +1,5 @@
 module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  content: ["./src/**/*.{js,jsx,ts,tsx}" ,'./src/**/*.{html,js}', './node_modules/tw-elements/dist/js/**/*.js'],
   theme: {
     extend: {
       backgroundImage: {
@@ -31,7 +31,10 @@ module.exports = {
         "navbar-ptr-color": "#F0A500",
         "sub-title-color":"#C4C4C4",
       },
+      
     },
   },
-  plugins: [],
+  plugins: [
+    require('tw-elements/dist/plugin')
+  ],
 };
