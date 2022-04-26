@@ -10,11 +10,11 @@ const NavLogo = () => {
       <Link to="/" >
         <img src={keyboardlogo} alt="" className="w-20 invert" />
       </Link>
-      <div class="flex items-center text-gray-400 ml-5 focus-within:text-black">
-        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 absolute ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+      <div class="flex items-center text-gray-400 ml-5 ">
+        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 absolute ml-2 text-[#2C394B]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
           <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
         </svg>
-        <input class="pl-8 rounded-2xl py-1 text-gray-700" id="search" type="text" placeholder="Search">
+        <input class="pl-8 rounded-2xl py-1 text-gray-700 bg-[#334756]" id="search" type="text" placeholder="Search">
         </input>
       </div>
     </div>
@@ -61,7 +61,7 @@ const NavLogin = () => {
 
 const Navbar = () => {
   return (
-    <div className="flex justify-around bg-black px-7 py-2 w-screen">
+    <div className="flex justify-around bg-[#2C394B] px-7 py-2 w-screen">
       <NavLogo />
       <NavLists />
       <NavLogin />

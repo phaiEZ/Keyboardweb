@@ -1,5 +1,6 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
+import NavbarAfterLogin from "./components/NavbarAfterLogin"
 import Home from "./pages/Home";
 import Shop from "./pages/Shop";
 import Custom from "./pages/Custom";
@@ -15,6 +16,7 @@ function App() {
     <div className="">
       <BrowserRouter>
         <Navbar />
+        {/* <NavbarAfterLogin /> */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Shop" element={<Shop />} />
