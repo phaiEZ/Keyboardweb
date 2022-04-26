@@ -3,7 +3,7 @@ import keyboardlogo from "../img/keyboardlogo.png";
 
 const Cart = () => {
   return (
-    <div class="container mx-auto mt-1 pt-10 ">
+    <div class="container mx-auto w-4/6 mt-1 pt-10 ">
       <div class="flex items-between my-10">
         <div class="rounded-2xl w-3/4 bg-gray-100">
           <div class="flex justify-start border-b pb-6 mx-9 py-6">
