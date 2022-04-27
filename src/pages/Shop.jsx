@@ -1,5 +1,6 @@
 import React from "react";
 import keyboardlogo from "../img/keyboardlogo.png";
+
 const Shop = () => {
   return (
     <div class="w-auto h-screen bg-[#082032]">
