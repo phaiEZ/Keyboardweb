@@ -381,7 +381,7 @@ function KeySimulator({ currentTheme, theme }) {
             <div className={styles.selectcol}>
               <button
                 type="button"
-                class="inline-block px-6 py-2.5  bg-[#F0A500] text-white font-bold text-xs leading-tight uppercase rounded shadow-md hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-red-700 active:shadow-lg transition duration-150 ease-in-out"
+                class="inline-block px-6 py-2.5  bg-[#F0A500] text-white font-bold text-xs leading-tight uppercase rounded shadow-md hover:shadow-lg  focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out"
                 >
                 Order
               </button>

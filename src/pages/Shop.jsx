@@ -58,6 +58,7 @@ const Shop = () => {
         </div>
         {/*block products */}
         <div className="flex justify-around py-16">
+        <a href="/Product">
           <button class="bg-[#334756] rounded-3xl w-52 h-52">
             <div className="flex justify-center">
               <img src={keyboardlogo} alt="" className="w-32" />
@@ -65,6 +66,8 @@ const Shop = () => {
             <div className="text-white text-xl font-bold py-2">keyboard</div>
             <div className="text-white font-bold">100 B</div>
           </button>
+          </a>
+          <a href="/Product">
           <button class="bg-[#334756] rounded-3xl w-52 h-52">
             <div className="flex justify-center">
               <img src={keyboardlogo} alt="" className="w-32" />
@@ -72,6 +75,8 @@ const Shop = () => {
             <div className="text-white text-xl font-bold py-2">keyboard</div>
             <div className="text-white font-bold">100 B</div>
           </button>
+          </a>
+          <a href="/Product">
           <button class="bg-[#334756] rounded-3xl w-52 h-52">
             <div className="flex justify-center">
               <img src={keyboardlogo} alt="" className="w-32" />
@@ -79,15 +84,10 @@ const Shop = () => {
             <div className="text-white text-xl font-bold py-2">keyboard</div>
             <div className="text-white font-bold">100 B</div>
           </button>
+          </a>
         </div>
         <div className="flex justify-around py-3">
-        <button class="bg-[#334756] rounded-3xl w-52 h-52">
-            <div className="flex justify-center">
-              <img src={keyboardlogo} alt="" className="w-32" />
-            </div>
-            <div className="text-white text-xl font-bold py-2">keyboard</div>
-            <div className="text-white font-bold">100 B</div>
-          </button>
+        <a href="/Product">
           <button class="bg-[#334756] rounded-3xl w-52 h-52">
             <div className="flex justify-center">
               <img src={keyboardlogo} alt="" className="w-32" />
@@ -95,6 +95,8 @@ const Shop = () => {
             <div className="text-white text-xl font-bold py-2">keyboard</div>
             <div className="text-white font-bold">100 B</div>
           </button>
+          </a>
+          <a href="/Product">
           <button class="bg-[#334756] rounded-3xl w-52 h-52">
             <div className="flex justify-center">
               <img src={keyboardlogo} alt="" className="w-32" />
@@ -102,6 +104,16 @@ const Shop = () => {
             <div className="text-white text-xl font-bold py-2">keyboard</div>
             <div className="text-white font-bold">100 B</div>
           </button>
+          </a>
+          <a href="/Product">
+          <button class="bg-[#334756] rounded-3xl w-52 h-52">
+            <div className="flex justify-center">
+              <img src={keyboardlogo} alt="" className="w-32" />
+            </div>
+            <div className="text-white text-xl font-bold py-2">keyboard</div>
+            <div className="text-white font-bold">100 B</div>
+          </button>
+          </a>
         </div>
         {/*Page number */}
         <div>
