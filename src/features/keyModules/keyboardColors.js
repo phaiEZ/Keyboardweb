@@ -1,8 +1,9 @@
 export const keyboardColors = [
   {
-    color: "blue",
-    caption: "Blue",
-    background: "linear-gradient(137deg, #082032 0%, #081032 75%)",
+    color: "white",
+    caption: "White",
+    background:
+      "linear-gradient(360deg, rgba(255,255,255,1) 0%, rgba(236,236,236,1) 75%)",
   },
   {
     color: "black",
@@ -17,10 +18,9 @@ export const keyboardColors = [
       "linear-gradient(360deg, rgba(227,236,242,1) 0%, rgba(211,216,219,1) 75%)",
   },
   {
-    color: "white",
-    caption: "White",
-    background:
-      "linear-gradient(360deg, rgba(255,255,255,1) 0%, rgba(236,236,236,1) 75%)",
+    color: "blue",
+    caption: "Blue",
+    background: "linear-gradient(137deg, #082032 0%, #081032 75%)",
   },
   {
     color: "beige",
