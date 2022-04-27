@@ -1,7 +1,8 @@
 import React from "react";
 const Community = () => {
   return (
-    <div class="container mx-auto mt-1 pt-10">
+    <div class="w-auto h-screen bg-[#082032]">
+    <div class="container mx-auto pt-10">
       <div class="flex justify-center items-between my-5 px-6">
           <a href="/Profile" class=" rounded-full flex justify-center bg-profile1-pic bg-cover ring-2 ring-black items-center pl-20 pr-24 pt-20 pb-24 mb-3 mr-20 hover:brightness-50"/>
         <div class="relative flex justify-around rounded-3xl bg-bg-profile w-6/12 px-3 pb-3 pt-10 mb-3">
@@ -13,8 +14,8 @@ const Community = () => {
           <a href="/Product" class="rounded-2xl bg-white w-1/2 bg-keyboard5-pic ml-3 bg-cover"/>
         </div>
       </div>
-      <div class="border-b ml-40 mr-40"></div>
-      <div class="flex justify-center items-between my-5 px-6">
+      <div class="border-b border-gray-700 ml-40 mr-40"></div>
+      <div class="flex justify-center items-between py-5 my-5 px-6">
       <a href="/Profile" class=" rounded-full flex justify-center bg-profile2-pic bg-cover ring-2 ring-black items-center pl-20 pr-24 pt-20 pb-24 mb-3 mr-20 hover:brightness-50"/>
         <div class="relative flex justify-around rounded-3xl bg-bg-profile w-6/12 px-3 pb-3 pt-10 mb-3">
           <h1 class="absolute top-1.5 left-7 text-white text-xl font-bold">
@@ -25,8 +26,8 @@ const Community = () => {
           <a href="/Product" class="rounded-2xl bg-white w-1/2 bg-keyboard5-pic ml-3 bg-cover " />
         </div>
       </div>
-      <div class="border-b ml-40 mr-40"></div>
-      <div class="flex justify-center items-between my-5 px-6">
+      <div class="border-b border-gray-700 ml-40 mr-40"></div>
+      <div class="flex justify-center items-between py-5 my-5 px-6">
       <a href="/Profile" class=" rounded-full flex justify-center bg-profile3-pic bg-cover ring-2 ring-black items-center pl-20 pr-24 pt-20 pb-24 mb-3 mr-20 hover:brightness-50"/>
         <div class="relative flex justify-around rounded-3xl bg-bg-profile w-6/12 px-3 pb-3 pt-10 mb-3">
           <h1 class="absolute top-1.5 left-7 text-white text-xl font-bold">
@@ -37,27 +38,28 @@ const Community = () => {
           <a href="/Product" class="rounded-2xl bg-white w-1/2 bg-keyboard5-pic ml-3 bg-cover " />
         </div>
       </div>
-      <div class="border-b ml-40 mr-40"></div>
+      <div class="border-b border-gray-700 ml-40 mr-40"></div>
       <div className="fixed bottom-20 right-48">
         <a href="/Cart">
-          <button class="rounded-full px-4 py-4 bg-black">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-10 w-10 text-white"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              strokeWidth={2}
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
-              />
-            </svg>
-          </button>
+        <button class="rounded-full px-4 py-4 bg-white">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-10 w-10 text-black"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                strokeWidth={2}
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+                />
+              </svg>
+            </button>
         </a>
       </div>
+    </div>
     </div>
   );
 };

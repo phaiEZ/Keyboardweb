@@ -2,18 +2,19 @@ import React from "react";
 import UserInfo from "../dummies/userinfo";
 const Profile = () => {
   return (
-    <div class="container mx-auto my-auto mt-10 w-4/6  rounded-3xl  ">
-      <div class="flex justify-center items-between my-5 px-6 ">
+    <div class="w-screen h-screen bg-[#082032]">
+    <div class="container mx-auto my-auto w-4/6  rounded-3xl pt-6">
+      <div class="flex justify-center items-between px-6 mb-5">
         <div>
           {/* <a href="/Profile" class=" rounded-full flex justify-center bg-profile1-pic bg-cover ring-2 ring-black items-center px-20 py-20 hover:brightness-50"/> */}
           <img
             src={UserInfo.img}
-            class="rounded-full w-60 ring-2 ring-bg-profile"
+            class="rounded-full w-60 ring-2 ring-bg-profile mr-2"
           />
         </div>
         <div class="relative bg-[#334756]  ml-24 w-3/6 py-20 rounded-xl ">
-          <div class=" bg-[#1F3647] w-full rounded-xl absolute top-0 py-1">
-            <h1 class="font-bold text-white  text-3xl ml-3"> Profile </h1>
+          <div class=" bg-[#1F3647] w-full rounded-t-xl absolute top-0 py-1">
+            <h1 class="font-bold text-white  text-2xl ml-5"> Profile </h1>
           </div>
           <a
             href="#"
@@ -29,12 +30,12 @@ const Profile = () => {
           </div>
         </div>
       </div>
-      <div class=" bg-[#334756] rounded-xl w-5/6  mx-auto  pb-12">
-        <div class=" bg-[#1F3647] w-full rounded-xl pt-2 pb-2 ">
-          <p class="font-bold text-white  text-3xl ml-3">My keyboards design</p>
+      <div class=" bg-[#334756] rounded-xl w-9/12  mx-auto  pb-12 ">
+        <div class=" bg-[#1F3647] w-full pt-2 pb-2 rounded-t-xl">
+          <p class="font-bold text-white  text-2xl ml-5">My Keyboards Design</p>
         </div>
 
-        <div className="flex justify-center items-center w-5/6 mx-auto mt-10">
+        <div className="flex justify-center items-center mx-auto mt-10 px-12">
           <div
             id="carouselExampleIndicators"
             class="carousel slide relative "
@@ -111,6 +112,27 @@ const Profile = () => {
             </button>
           </div>
         </div>
+      </div>
+    </div>
+    <div className="fixed bottom-20 right-48">
+        <a href="/Cart">
+        <button class="rounded-full px-4 py-4 bg-white">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-10 w-10 text-black"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                strokeWidth={2}
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+                />
+              </svg>
+            </button>
+        </a>
       </div>
     </div>
   );

@@ -6,7 +6,8 @@ import "swiper/swiper.min.css";
 
 const Home = () => {
   return (
-    <div class="container mx-auto mt-1 pt-3">
+  <div class="w-screen h-screen bg-[#082032]">
+    <div class="container mx-auto pt-3">
       <div class="flex justify-center items-between my-10">
         <div class="w-3/5 h-96 px-10">
           <div className="">
@@ -36,7 +37,7 @@ const Home = () => {
               </div>
 
               <div class="carousel-inner relative w-full overflow-hidden">
-                <div class="carousel-item active relative float-left w-full">
+                <a href="/Product" class="carousel-item active relative float-left w-full">
                   <img
                     src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(19).webp"
                     class="block w-full"
@@ -49,9 +50,9 @@ const Home = () => {
                       slide.
                     </p>
                   </div>
-                </div>
+                </a>
 
-                <div class="carousel-item relative float-left w-full">
+                <a href="/Product" class="carousel-item relative float-left w-full">
                   <img
                     src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(35).webp"
                     class="block w-full"
@@ -64,9 +65,9 @@ const Home = () => {
                       slide.
                     </p>
                   </div>
-                </div>
+                </a>
 
-                <div class="carousel-item relative float-left w-full">
+                <a href="/Product" class="carousel-item relative float-left w-full">
                   <img
                     src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(40).webp"
                     class="block w-full"
@@ -79,7 +80,7 @@ const Home = () => {
                       slide.
                     </p>
                   </div>
-                </div>
+                </a>
               </div>
 
               <button
@@ -111,31 +112,57 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="flex justify-center ">
-        <button class="bg-white shadow-lg rounded-3xl mx-12 w-72 h-72">
+      <div className="flex justify-center mx-auto ">
+        <a href="/Product">
+        <button class="bg-[#334756] shadow-lg rounded-3xl mx-8 w-60 h-60">
           <div className="flex justify-center">
             <img src={keyboardlogo} alt="" className="w-32" />
           </div>
           <div className="text-black text-xl font-bold py-2">keyboard</div>
           <div className="text-black font-normal">100B</div>
         </button>
-        <button class="bg-white shadow-lg rounded-3xl mx-12 w-72 h-72">
+        </a>
+        <a href="/Product">
+        <button class="bg-[#334756] shadow-lg rounded-3xl mx-8 w-60 h-60">
           <div className="flex justify-center">
             <img src={keyboardlogo} alt="" className="w-32" />
           </div>
           <div className="text-black text-xl font-bold py-2">keyboard</div>
           <div className="text-black font-normal">100B</div>
         </button>
-        <button class="bg-white shadow-lg rounded-3xl mx-12 w-72 h-72">
+        </a>
+        <a href="/Product">
+        <button class="bg-[#334756] shadow-lg rounded-3xl mx-8 w-60 h-60">
           <div className="flex justify-center">
             <img src={keyboardlogo} alt="" className="w-32" />
           </div>
           <div className="text-black text-xl font-bold py-2">keyboard</div>
           <div className="text-black font-normal">100B</div>
         </button>
+        </a>
+      </div>
+      <div className="fixed bottom-20 right-48">
+        <a href="/Cart">
+          <button class="rounded-full px-4 py-4 bg-white">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-10 w-10 text-black"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              strokeWidth={2}
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+              />
+            </svg>
+          </button>
+        </a>
+      </div>
       </div>
     </div>
   );
 };
-
 export default Home;

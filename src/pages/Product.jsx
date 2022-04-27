@@ -301,10 +301,10 @@ const Product = () => {
 
         <div className="fixed bottom-20 right-48">
           <a href="/Cart">
-            <button class="rounded-full px-4 py-4 bg-black">
+            <button class="rounded-full px-4 py-4 bg-white">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-10 w-10 text-white"
+                className="h-10 w-10 text-black"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
