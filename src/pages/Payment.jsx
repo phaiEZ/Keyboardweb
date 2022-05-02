@@ -10,9 +10,6 @@ const Payment = () => {
                     <div class=" rounded-2xl bg-[#1e3345] w-full px-9 py-6 ml-3 mb-3">
                         <div class="flex justify-between border-b border-b-gray-600">
                             <h1 class="font-bold text-lg text-white">ADDRESS</h1>
-                            <button class="font-normal  mt-2 text-xs hover:text-red-500 text-white border-white hover:border-b hover:border-red-500">
-                                edit
-                            </button>
                         </div>
                         <div class="mt-5">
                             <span class="font-normal text-sm text-white">

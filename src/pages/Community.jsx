@@ -1,41 +1,66 @@
 import React from "react";
+import keyboardlogo from "../img/keyboardlogo.png";
 const Community = () => {
   return (
     <div class="w-auto h-screen bg-[#082032]">
     <div class="container mx-auto pt-10">
       <div class="flex justify-center items-between my-5 px-6">
-          <a href="/Profile" class=" rounded-full flex justify-center bg-profile1-pic bg-cover ring-2 ring-black items-center pl-20 pr-24 pt-20 pb-24 mb-3 mr-20 hover:brightness-50"/>
+          <a href="/Profile" class=" rounded-full flex justify-center ring-2 ring-black items-center w-44 h-44 mb-3 mr-20 hover:brightness-50">
+          <img src={keyboardlogo} alt="" className="w-40" />
+          </a>
         <div class="relative flex justify-around rounded-3xl bg-bg-profile w-6/12 px-3 pb-3 pt-10 mb-3">
           <h1 class="absolute top-1.5 left-7 text-white text-xl font-bold">
             OppKung
           </h1>
-          <a href="/Product" class="rounded-2xl bg-white w-1/2 bg-keyboard5-pic bg-cover"/>
-          <a href="/Product" class="rounded-2xl bg-white w-1/2 bg-keyboard5-pic ml-3 bg-cover " />
-          <a href="/Product" class="rounded-2xl bg-white w-1/2 bg-keyboard5-pic ml-3 bg-cover"/>
+          <a href="/Product" class="rounded-2xl bg-white w-1/2 bg-cover">
+          <img src={keyboardlogo} alt="" className="" />
+          </a>
+          <a href="/Product" class="rounded-2xl bg-white w-1/2 ml-3 bg-cover ">
+          <img src={keyboardlogo} alt="" className="" />
+          </a>
+          <a href="/Product" class="rounded-2xl bg-white w-1/2 ml-3 bg-cover ">
+          <img src={keyboardlogo} alt="" className="" />
+          </a>
         </div>
       </div>
       <div class="border-b border-gray-700 ml-40 mr-40"></div>
       <div class="flex justify-center items-between py-5 my-5 px-6">
-      <a href="/Profile" class=" rounded-full flex justify-center bg-profile2-pic bg-cover ring-2 ring-black items-center pl-20 pr-24 pt-20 pb-24 mb-3 mr-20 hover:brightness-50"/>
+      <a href="/Profile" class=" rounded-full flex justify-center  ring-2 ring-black items-center w-44 h-44 mb-3 mr-20 hover:brightness-50">
+      <img src={keyboardlogo} alt="" className="w-40" />
+      </a>
         <div class="relative flex justify-around rounded-3xl bg-bg-profile w-6/12 px-3 pb-3 pt-10 mb-3">
           <h1 class="absolute top-1.5 left-7 text-white text-xl font-bold">
             Toto
           </h1>
-          <a href="/Product" class="rounded-2xl bg-white w-1/2 bg-keyboard5-pic bg-cover " />
-          <a href="/Product" class="rounded-2xl bg-white w-1/2 bg-keyboard5-pic ml-3 bg-cover " />
-          <a href="/Product" class="rounded-2xl bg-white w-1/2 bg-keyboard5-pic ml-3 bg-cover " />
+          <a href="/Product" class="rounded-2xl bg-white w-1/2 bg-cover">
+          <img src={keyboardlogo} alt="" className="" />
+          </a>
+          <a href="/Product" class="rounded-2xl bg-white w-1/2 ml-3 bg-cover ">
+          <img src={keyboardlogo} alt="" className="" />
+          </a>
+          <a href="/Product" class="rounded-2xl bg-white w-1/2 ml-3 bg-cover ">
+          <img src={keyboardlogo} alt="" className="" />
+          </a>
         </div>
       </div>
       <div class="border-b border-gray-700 ml-40 mr-40"></div>
       <div class="flex justify-center items-between py-5 my-5 px-6">
-      <a href="/Profile" class=" rounded-full flex justify-center bg-profile3-pic bg-cover ring-2 ring-black items-center pl-20 pr-24 pt-20 pb-24 mb-3 mr-20 hover:brightness-50"/>
+      <a href="/Profile" class=" rounded-full flex justify-center  ring-2 ring-black items-center w-44 h-44 mb-3 mr-20 hover:brightness-50">
+      <img src={keyboardlogo} alt="" className="w-40" />
+      </a>
         <div class="relative flex justify-around rounded-3xl bg-bg-profile w-6/12 px-3 pb-3 pt-10 mb-3">
           <h1 class="absolute top-1.5 left-7 text-white text-xl font-bold">
             Aomzupp
           </h1>
-          <a href="/Product" class="rounded-2xl bg-white w-1/2 bg-keyboard5-pic bg-cover " />
-          <a href="/Product" class="rounded-2xl bg-white w-1/2 bg-keyboard5-pic ml-3 bg-cover " />
-          <a href="/Product" class="rounded-2xl bg-white w-1/2 bg-keyboard5-pic ml-3 bg-cover " />
+          <a href="/Product" class="rounded-2xl bg-white w-1/2 bg-cover">
+          <img src={keyboardlogo} alt="" className="" />
+          </a>
+          <a href="/Product" class="rounded-2xl bg-white w-1/2 ml-3 bg-cover ">
+          <img src={keyboardlogo} alt="" className="" />
+          </a>
+          <a href="/Product" class="rounded-2xl bg-white w-1/2 ml-3 bg-cover ">
+          <img src={keyboardlogo} alt="" className="" />
+          </a>
         </div>
       </div>
       <div class="border-b border-gray-700 ml-40 mr-40"></div>

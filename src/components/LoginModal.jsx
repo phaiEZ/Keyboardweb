@@ -10,7 +10,7 @@ const LoginModal = ({isOpen,toggleModel,forceOpenRegister}) => {
 
       {isOpen && (
         <div className="w-screen h-screen flex justify-center items-center absolute top-0 left-0 z-50">
-          <div className="w-screen h-screen bg-black/50 absolute top-0 left-0"
+          <div className="w-screen h-screen bg-black/70 absolute top-0 left-0"
             onClick={toggleModel}>
           </div>
               <form class="bg-[#082032] shadow-lg rounded-3xl absolute px-16 pt-20 pb-20 mb-15">

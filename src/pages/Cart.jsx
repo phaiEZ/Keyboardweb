@@ -1,5 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
+import AddressPopup from "../components/AddressPopup";
 import keyboardlogo from "../img/keyboardlogo.png";
+
+const AddressModal = () => {
+  
+  const [isAddressOpen, setIsAddressOpen] = useState(false);
+  const toggleAddress = () => {
+    setIsAddressOpen(!isAddressOpen);
+  };
+  return (
+    <div className="flex items-center font-bold text-white">
+      <AddressPopup isOpen={isAddressOpen} toggleModel={toggleAddress} />
+    </div>
+  );
+}
 
 const Cart = () => {
   return (
@@ -133,7 +147,7 @@ const Cart = () => {
           <div class=" rounded-2xl bg-[#1e3345] w-full px-9 py-6 ml-3 mb-3">
             <div class="flex justify-between border-b pb-5 border-gray-600">
               <h1 class="font-bold text-lg text-white">ADDRESS</h1>
-              <button class="font-normal  mt-2 text-xs hover:text-red-500 hover:border-b border-red-500 text-white">edit</button>
+              <button class=""><AddressModal /></button>
             </div>
             <div class="mt-5">
               <span class="font-normal text-sm text-white">ถ.ฉลองกรุง แขวงลาดกระบัง เขตลาดกระบัง กรุงเทพฯ 10520</span>
@@ -149,7 +163,7 @@ const Cart = () => {
               <label for="promo" class="font-semibold inline-block mb-3 text-sm uppercase text-white">Promo Code</label>
               <input type="text" id="promo" placeholder="Enter your code" class="p-2 border-2 text-sm w-full rounded-2xl bg-[#1e3345]" />
             </div>
-            <button class=" hover:bg-indigo-600 px-5 py-2 text-sm font-bold text-white uppercase rounded-2xl w-full bg-[#F0A500]">Apply</button>
+            <button class=" px-5 py-2 text-sm font-bold text-white uppercase rounded-2xl w-full bg-[#F0A500]">Apply</button>
             <div class="border-t mt-8 border-gray-600">
               <div class="flex font-semibold justify-between py-6 text-sm uppercase text-white">
                 <span class="text-white">Total cost</span>

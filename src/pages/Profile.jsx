@@ -1,28 +1,40 @@
-import React from "react";
+import React, { useState } from "react";
 import UserInfo from "../dummies/userinfo";
+import EditProfile from "../components/EditProfile";
+
+const EProfile = () => {
+  const [isEditOpen, setIsEditOpen] = useState(false);
+  const toggleEdit = () => {
+    setIsEditOpen(!isEditOpen);
+  };
+  return (
+    <div className="flex items-center font-bold text-white">
+      <EditProfile isOpen={isEditOpen} toggleModel={toggleEdit} />
+    </div>
+  );
+}
+
 const Profile = () => {
   return (
     <div class="w-screen h-screen bg-[#082032]">
       <div class="container mx-auto my-auto w-4/6  rounded-3xl pt-6">
         <div class="flex justify-center items-between px-6 mb-5">
           <div>
-            {/* <a href="/Profile" class=" rounded-full flex justify-center bg-profile1-pic bg-cover ring-2 ring-black items-center px-20 py-20 hover:brightness-50"/> */}
             <img
               src={UserInfo.img}
               class="rounded-full w-60 ring-2 ring-bg-profile mr-2"
             />
           </div>
-          <div class="relative bg-[#334756]  ml-24 w-3/6 py-20 rounded-xl ">
-            <div class=" bg-[#1F3647] w-full rounded-t-xl absolute top-0 py-1">
-              <h1 class="font-bold text-white  text-2xl ml-5"> Profile </h1>
-            </div>
-            <a
-              href="#"
-              class=" border-b border-white   text-white hover:text-red-500 hover:border-red-500 absolute top-2 right-5 "
+          <div class=" bg-[#334756]  ml-24 w-3/6 rounded-xl">
+            <div class=" bg-[#1F3647] w-full rounded-t-xl py-1 flex justify-between">
+              <h1 class="font-bold text-white  text-2xl pl-5"> Profile </h1>
+              <button
+              class="pr-5"
             >
-              edit
-            </a>
-            <div class="absolute top-10 left-8 mr-8 mt-4">
+              <EProfile />
+            </button>
+            </div>
+            <div class="mt-4 mx-5">
               <h1 class="font-bold text-white text-xl"> {UserInfo.Name} </h1>
               <p class="font-bold text-gray-400 text-sm mt-2">
                 {UserInfo.Detail}

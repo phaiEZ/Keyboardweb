@@ -1,6 +1,4 @@
 import React from "react";
-import KeyboardInfo from "../dummies/keyboardinfo";
-import keyboardlogo from "../img/keyboardlogo.png";
 
 const Product = () => {
   return (
@@ -10,7 +8,7 @@ const Product = () => {
           <div class="relative rounded-xl bg-[#192F40] py-48 w-4/6 mt-0 ">
             <div class="absolute top-0 left-0 flex w-full h-full ">
               <div class="flex justify-center items-center w-60 h-60 bg-white ml-5 mt-5">
-                <img class="" src="{}" alt="" />
+                <img class="w-60" src="{}" alt="" />
               </div>
               <div class="flex flex-col ml-5 mt-5 mr-5 ">
                 <span class="font-bold text-3xl text-white">
